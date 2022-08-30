@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jedi = "*"
+yapf = "*"
+flake8 = "*"
+pyflakes = "*"
+isort = "*"
+black = "*"
+pydocstyle = "*"
+pycodestyle = "*"
+autopep8 = "*"
+pylint = "*"
+mccabe = "*"
+rope = "*"
+python-language-server = {extras = ["all"], version = "*"}
+notebook = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
